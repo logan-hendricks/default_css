@@ -1,10 +1,13 @@
-.button {
-
-}
-
 body {
     padding: 0;
     margin: 0;
+}
+
+section{
+    border: 2px solid black;
+    min-height: 200px;
+    background: #DDFFFF;
+    padding: 10px;
 }
 
 header {
@@ -14,9 +17,13 @@ header {
     padding: 10px;
 }
 
-section{
-    border: 2px solid black;
-    min-height: 200px;
-    background: #DDFFFF;
-    padding: 10px;
+.mockButton {
+    background: #FFFFFF;
+    border: 2px black solid;
+    max-width: 50px;
+}
+
+#mockLink {
+    cursor: pointer;
+    color: blue;
 }
